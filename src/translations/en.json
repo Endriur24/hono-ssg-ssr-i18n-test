@@ -1,0 +1,24 @@
+{
+  "language": "English",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "dynamic": "Dynamic"
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome",
+      "greeting": "hello"
+    },
+    "about": {
+      "title": "About Us"
+    },
+    "dynamic": {
+      "title": "Dynamic Page",
+      "currentTime": "Current Time"
+    }
+  },
+  "notFound": {
+    "title": "404 - Page Not Found"
+  }
+}

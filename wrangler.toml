@@ -1,0 +1,5 @@
+name = "hono-ssg-ssr-test"
+compatibility_date = "2025-03-09"
+
+pages_build_output_dir = "./dist"
+

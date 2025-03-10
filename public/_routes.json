@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": ["/de/", "/en/", "/fr/", "/pl/",
+  "/de/about", "/en/about", "/fr/about", "/pl/about",
+  "/static/*", "/favicon.ico"]
+}

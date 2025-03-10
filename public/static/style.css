@@ -1,0 +1,59 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .languages,
+nav .pages {
+  display: flex;
+  gap: 0.5rem;
+}
+
+nav .languages {
+  padding-right: 2rem;
+  border-right: 1px solid #eee;
+}
+
+nav .pages {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: #f5f5f5;
+}
+
+nav a.active {
+  color: #000;
+  font-weight: 500;
+  background: #f0f0f0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 0;
+}
